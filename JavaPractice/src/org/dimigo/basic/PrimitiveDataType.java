@@ -12,6 +12,7 @@ public class PrimitiveDataType {
 	public static void main(String[] args) {
 		
 		// 맘같아선 그냥 출력하고 싶지만 그럴수가 없어 선언하는 변수들
+		
 		String name = "아이유";
 		boolean gender = false;
 		int age = 23;
@@ -23,6 +24,8 @@ public class PrimitiveDataType {
 		
 		System.out.println("<< 아이유 프로필 >>");
 		System.out.println("이름 : " + name);
+		
+		//기석이 게임해요
 		
 		System.out.print("성별 : ");
 		if (!gender) System.out.println("여자");
