@@ -3,11 +3,15 @@ package org.dimigo.basic;
 public class Promotion {
 	public static void main(String[] args) {
 		
+		// 적기 싫지만 일단 적어두는 주석_ 변수선언
+		
 		int montly_Pay = 1700000;
 		int workers = 3;
 		int shop = 1500;
 		long yearly_Pay = (long)montly_Pay * 12 * (long)workers * (long)shop;
 		
+		
+		// 무려 출력
 		
 		System.out.println("<< 디미베네 연간 인건비 >>");
 		System.out.println("월 평균 급여 : " + String.format("%,d", montly_Pay) + "원");
