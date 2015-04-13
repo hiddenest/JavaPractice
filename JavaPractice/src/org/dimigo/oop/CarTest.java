@@ -23,7 +23,7 @@ public class CarTest {
 	public static void main(String[] args) {
 		
 		//차 선언
-		Car hyundai = new Car(); //
+		Car hyundai = new Car(); 
 		Car kia = new Car();
 		Car samsung = new Car();
 		
