@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.dimigo.basic;
+package org.dimigo.oop;
 
 /**
  * <pre>
@@ -46,7 +46,7 @@ public class CarTest {
 		samsung.setColor("회색");
 		samsung.setMaxSpeed(200);
 		samsung.setPrice(38000000);
-		
+
 		//출력_현기차
 		System.out.println("<< 자동차 목록 >>");
 		System.out.println("제조사명 : " + hyundai.getCompany() + "자동차");
