@@ -24,7 +24,7 @@ public class Car {
 	private int price;
 	
 	public void setCompany(String nCompany) {
-		company = nCompany;
+		company = nCompany; 
 	}
 	
 	public void setModel(String nModel) {

@@ -45,7 +45,7 @@ public class CarTest {
 		samsung.setModel("SM7");
 		samsung.setColor("회색");
 		samsung.setMaxSpeed(200);
-		samsung.setPrice(38000000);
+		samsung.setPrice(38000000); 
 
 		//출력_현기차
 		System.out.println("<< 자동차 목록 >>");
