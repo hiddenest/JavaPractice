@@ -22,8 +22,7 @@ public class Car3 {
 	private String color;
 	private int maxSpeed;
 	private int price;
-	
-	//this 개념을 바탕으로 작성
+
 	
 	public Car3(String company, String model, String color, int maxSpeed, int price) {
 		this.company = company;

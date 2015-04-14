@@ -21,7 +21,7 @@ public class Car3Test {
 
 	public static void main(String[] args) {
 		
-		//차 선언 및 세팅 with this
+		//차 선언 및 세팅
 		Car3 hyundai = new Car3("현대", "제네시스", "검정색", 225, 50000000); 
 		Car3 kia = new Car3("기아", "K7", "흰색", 246);
 		Car3 samsung = new Car3("삼성", "SM7", "회색");
