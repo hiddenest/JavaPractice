@@ -9,7 +9,7 @@ package org.dimigo.oop;
  * 		|_ Car
  * 
  * 1. 개요 :		
- * 2. 작성일 :		2015. 4. 10.
+ * 2. 작성일 :		2015. 4. 1.
  * </pre>
  * 
  * @author :		이찬희

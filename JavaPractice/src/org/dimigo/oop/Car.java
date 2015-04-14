@@ -5,7 +5,7 @@ package org.dimigo.oop;
 
 /**
  * <pre>
- * org.dimigo.basic
+ * org.dimigo.oop
  * 		|_ Car
  * 
  * 1. 개요 :		

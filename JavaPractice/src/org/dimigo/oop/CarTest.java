@@ -3,8 +3,6 @@
  */
 package org.dimigo.oop;
 
-import org.dimigo.oop.Car;
-
 /**
  * <pre>
  * org.dimigo.basic
