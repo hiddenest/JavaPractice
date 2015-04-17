@@ -27,31 +27,9 @@ public class Car3Test {
 		Car3 samsung = new Car3("삼성", "SM7", "회색");
 		
 
-		//출력_현기차
-		System.out.println("<< 자동차 목록 >>");
-		System.out.println("제조사명 : " + hyundai.getCompany() + "자동차");
-		System.out.println("모델명 : " + hyundai.getModel());
-		System.out.println("색상 : " + hyundai.getColor());
-		System.out.println("최대속도 : " + hyundai.getMaxSpeed() + "km");
-		System.out.println("가격 : " + String.format("%,d", hyundai.getPrice()) + "원");
-		System.out.println();
-		
-		//출력_키야차
-		System.out.println("<< 자동차 목록 >>");
-		System.out.println("제조사명 : " + kia.getCompany() + "자동차");
-		System.out.println("모델명 : " + kia.getModel());
-		System.out.println("색상 : " + kia.getColor());
-		System.out.println("최대속도 : " + kia.getMaxSpeed() + "km");
-		System.out.println("가격 : " + String.format("%,d", kia.getPrice()) + "원");
-		System.out.println();
-		
-		//출력_쌤숭차
-		System.out.println("<< 자동차 목록 >>");
-		System.out.println("제조사명 : " + samsung.getCompany() + "자동차");
-		System.out.println("모델명 : " + samsung.getModel());
-		System.out.println("색상 : " + samsung.getColor());
-		System.out.println("최대속도 : " + samsung.getMaxSpeed() + "km");
-		System.out.println("가격 : " + String.format("%,d", samsung.getPrice()) + "원");
-		System.out.println();
+		//출력
+		hyundai.printout();
+		kia.printout();
+		samsung.printout();
 	}
 }

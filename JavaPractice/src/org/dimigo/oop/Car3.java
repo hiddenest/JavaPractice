@@ -41,24 +41,15 @@ public class Car3 {
 		this(company, model, color, 0, 0);
 	}
 	
-	public String getCompany() {
-		return company;
-	}
-	
-	public String getModel() {
-		return model;
-	}
-	
-	public String getColor() {
-		return color;
-	}
-	
-	public int getMaxSpeed() {
-		return maxSpeed;
-	}
-	
-	public int getPrice() {
-		return price;
+	public void printout() {
+		System.out.println("<< 자동차 목록 >>");
+		System.out.println("제조사명 : " + company + "자동차");
+		System.out.println("모델명 : " + model);
+		System.out.println("색상 : " + color);
+		System.out.println("최대속도 : " + maxSpeed + "km");
+		System.out.println("가격 : " + String.format("%,d", price) + "원");
+		System.out.println();
+		
 	}
 	
 }
