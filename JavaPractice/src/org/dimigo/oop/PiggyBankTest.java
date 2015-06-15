@@ -33,5 +33,8 @@ public class PiggyBankTest {
 	
 		PiggyBank.putMoney(me, 1000); //내가 천원 또 넣고
 		PiggyBank.printBalance(); //다시 출력 찍고
+		
+		PiggyBank.steelMoney(ybrother, 19000); //남동생이 돈 다 가져감
+		PiggyBank.printBalance(); //다시 출력 찍고
 	}
 }

@@ -34,7 +34,7 @@ public class FamilyMember {
 	}
 	
 	public static void printMemberCnt() {
-		System.out.println("가족 총 인원수 : " + memberCnt + "명"); // 가족 몇명인지 출력하기
+		System.out.println("가족 총 인원수 : " + memberCnt + "명\n"); // 가족 몇명인지 출력하기
 	}
 	
 	

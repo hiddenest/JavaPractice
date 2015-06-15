@@ -24,7 +24,16 @@ public class PiggyBank {
 		System.out.println(member.getMemberName() + " " + amount + "원 넣음"); // 누가 얼마 넣었는지 찍어주고
 	}
 	
+	public static void steelMoney(FamilyMember member, int amount) {
+		if(balance < 0) {
+			System.out.println("돈이 부족합니다 -_-;;"); //돈없으면 빼갈것도 없고
+		} else {
+			balance -= amount; //돈 빼감
+			System.out.println(member.getMemberName() + " " + amount + "원 빼감"); //나쁜놈
+		}
+	}
+	
 	public static void printBalance() {
-		System.out.println("돼지저금통 총 금액 : " + balance +  "원"); // 총 얼마나 들어있는지 보여줌
+		System.out.println("돼지저금통 총 금액 : " + balance +  "원\n"); // 총 얼마나 들어있는지 보여줌
 	}
 }
