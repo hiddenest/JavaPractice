@@ -17,14 +17,14 @@ package org.dimigo.inheritance;
  *
  */
 public class Figure {
-	private int centerX = 0;
+	private int centerX = 0; //기본선언
 	private int centerY = 0;
 	/**
 	 * @param centerX
 	 * @param centerY
 	 */
 	
-	public Figure() {
+	public Figure() { //기본생성자
 	}
 	
 	public Figure(int centerX, int centerY) {
@@ -32,8 +32,17 @@ public class Figure {
 		this.centerY = centerY;
 	}
 	
-	protected double calcArea() {
+	protected double calcArea() { //더미용 함수
 		return 0;
 		
+	}
+	
+	protected void printCenter() { //중심좌표 출력함수
+		System.out.println("중심좌표 : (" + centerX + ", " + centerY + ")");
+	}
+	
+	protected void moveFigure(int x, int y) { //중심좌표 이동함수
+		centerX += x;
+		centerY += y;
 	}
 }
