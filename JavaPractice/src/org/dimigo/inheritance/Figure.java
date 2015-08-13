@@ -17,8 +17,8 @@ package org.dimigo.inheritance;
  *
  */
 public class Figure {
-	private int centerX;
-	private int centerY;
+	private int centerX = 0;
+	private int centerY = 0;
 	/**
 	 * @param centerX
 	 * @param centerY
@@ -33,7 +33,7 @@ public class Figure {
 	}
 	
 	protected double calcArea() {
-		return 0.0;
+		return 0;
 		
 	}
 }
