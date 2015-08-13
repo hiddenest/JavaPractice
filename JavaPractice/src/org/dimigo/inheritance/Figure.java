@@ -33,7 +33,7 @@ public class Figure {
 	}
 	
 	protected double calcArea() {
-		return 0;
+		return 0.0;
 		
 	}
 }
