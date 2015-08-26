@@ -24,7 +24,7 @@ public class SmartPhoneTest {
 		System.out.println(i.toString()); //일단 출력
 		i.turnOn(); //켜고
 		i.pay(); //애플페이
-		i.useSpecialFunction(i); //에어드롭
+		i.useSpecialFunction(); //에어드롭
 		i.turnOff(); //끄고
 		
 		System.out.println();
@@ -32,7 +32,7 @@ public class SmartPhoneTest {
 		System.out.println(g.toString()); //출력
 		g.turnOn(); //켜고
 		g.pay(); //삼성페이(?)
-		g.useSpecialFunction(g); //무선충전(?)
+		g.useSpecialFunction(); //무선충전(?)
 		g.turnOff(); //끄고
 	}
 }

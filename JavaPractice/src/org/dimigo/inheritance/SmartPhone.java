@@ -42,6 +42,7 @@ public class SmartPhone {
 	public void pay() { //어차피 오버라이딩할꺼니까 비워놓고
 	}
 	
+	/*
 	public void useSpecialFunction(SmartPhone phone) {
 		if (phone == null) {
 			return ; //널체크
@@ -52,6 +53,18 @@ public class SmartPhone {
 		}
 		else {
 			IPhone i = (IPhone) phone; //캐스팅
+			i.useAirDrop();
+		}
+	}
+	*/
+	
+	public void useSpecialFunction() {
+		if(this instanceof Galaxy) {
+			Galaxy g = (Galaxy) this; //캐스팅
+			g.useWirelessCharge();
+		}
+		else {
+			IPhone i = (IPhone) this; //캐스팅
 			i.useAirDrop();
 		}
 	}
