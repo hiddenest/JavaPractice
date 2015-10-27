@@ -25,7 +25,7 @@ public class SaveImageFromUrl {
 		try {
 			URL url = new URL(imgUrl);
 			InputStream is = url.openStream();
-			OutputStream os = new FileOutputStream("files/microsoft.png");
+			OutputStream os = new FileOutputStream("files/copied_img.png");
 			
 			int result;
 			byte[] buf = new byte[100];
