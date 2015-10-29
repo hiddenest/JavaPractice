@@ -104,8 +104,7 @@ public class NaverSearch {
 	        int i = 1;
 	        try(BufferedWriter bw = new BufferedWriter(new FileWriter(f))) {
 		        for(Movie m : movieList) {
-			        	bw.write(i + ". " + m.getTitle() + " - " + m.getActors() + "\n");
-		        	
+			        bw.write(i + ". " + m.getTitle() + " - " + m.getActors() + "\n");
 		        	System.out.println(i + ". " + m.getTitle() + " - " + m.getActors());
 		        	i++;
 		        }
